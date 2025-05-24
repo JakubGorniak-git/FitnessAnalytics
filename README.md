@@ -63,17 +63,24 @@ install.packages(c("shiny", "shinydashboard", "DT", "plotly",
                    "viridis", "ggbeeswarm", "shinycssloaders", 
                    "shinyWidgets", "fresh"))
 ```
+
 ### 2. 🧬 Clone the Repository
+
 Use Git to download the project files:
-git clone https://github.com/JakubGorniak-git/FitnessAnalytics.git
+
+```bash
+git clone [https://github.com/JakubGorniak-git/FitnessAnalytics.git](https://github.com/JakubGorniak-git/FitnessAnalytics.git)
 cd FitnessAnalytics
+```
 
 ### 3. 📁 Prepare the Dataset
 Make sure the file gym_cleaned.csv is in the main project directory.
 
 ### 4. 🧪 Run the Application
 In your R console, run:
+```r
 shiny::runApp()
+```
 The dashboard should open automatically in your web browser (e.g., http://127.0.0.1:xxxx).
 
 ## 🌐 Live Demo
