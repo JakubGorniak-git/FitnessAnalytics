@@ -91,4 +91,4 @@ MIT License.
 Icons provided by Font Awesome.
 Built with the amazing R Shiny ecosystem.
 
-<div align="center"> ⭐ If you find this project helpful, please consider giving it a star! ⭐ </div> ```
+<div align="center"> ⭐ If you find this project helpful, please consider giving it a star! ⭐ </div>
