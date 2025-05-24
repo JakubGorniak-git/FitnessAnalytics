@@ -1,0 +1,223 @@
+body {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  background-color: black;
+}
+.skin-blue .main-header .navbar {
+  background-color: #3b82f6;
+  box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
+}
+.skin-blue .main-header .logo {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+.skin-blue .main-header .logo:hover {
+  background-color: #1d4ed8;
+}
+
+.skin-blue .main-sidebar {
+  background-color: #1e293b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.skin-blue .sidebar-menu > li > a {
+  color: #cbd5e1;
+  padding: 15px 15px 15px 20px;
+  border-left: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+.skin-blue .sidebar-menu > li:hover > a,
+.skin-blue .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background-color: #334155;
+  border-left-color: #3b82f6;
+}
+.skin-blue .sidebar-menu > li > .treeview-menu {
+  background-color: #0f172a;
+  padding-left: 5px;
+  max-height: 1000px;
+  overflow: visible;
+  transition: max-height 0.3s ease;
+}
+.selectize-dropdown {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+}
+
+.selectize-control.single .selectize-input {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+}
+
+.selectize-input.focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+.box {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+}
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+.box-header {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 15px 20px;
+}
+.box-body {
+  padding: 20px;
+}
+.box-primary {
+  border-top-color: #3b82f6;
+}
+.box.box-primary > .box-header {
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.info-box {
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+}
+.custom-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.hero-section {
+  transition: all 0.3s ease;
+}
+.hero-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(124, 58, 237, 0.3);
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.btn-primary {
+  background-color: #3b82f6;
+  border-color: #2563eb;
+}
+.btn-primary:hover {
+  background-color: #2563eb;
+  border-color: #1d4ed8;
+}
+.custom-button {
+  padding: 10px 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.plotly {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+.nav-tabs {
+  border-bottom: 2px solid #e2e8f0;
+}
+.nav-tabs > li > a {
+  border-radius: 8px 8px 0 0;
+  color: #64748b;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+.nav-tabs > li > a:hover {
+  background-color: #f1f5f9;
+  border-color: #e2e8f0;
+  color: #1e293b;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border: 1px solid #e2e8f0;
+  border-bottom-color: transparent;
+  background-color: #ffffff;
+  color: #3b82f6;
+  font-weight: 600;
+}
+.tab-content {
+  padding: 20px 0;
+}
+.dataTables_wrapper {
+  padding: 10px 0;
+}
+table.dataTable {
+  border-collapse: collapse !important;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+table.dataTable thead th {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
+  padding: 12px 18px;
+}
+table.dataTable tbody td {
+  padding: 10px 18px;
+  border-bottom: 1px solid #e2e8f0;
+}
+table.dataTable tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+
+.js-plotly-plot .plotly {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+.shiny-input-container {
+  margin-bottom: 15px;
+}
+
+.sidebar .treeview-menu {
+  display: block !important;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+}
+.sidebar .treeview.active > .treeview-menu {
+  max-height: 1000px;
+}
+.sidebar-menu .treeview-menu {
+  display: block !important;
+}
+.selectize-dropdown {
+  z-index: 9999 !important;
+}
